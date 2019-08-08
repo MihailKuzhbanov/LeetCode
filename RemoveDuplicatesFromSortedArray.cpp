@@ -4,7 +4,7 @@
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
-		const int c(nums.size());				//not works with dynamic vectors in real app
+		const int c(nums.size());				//not works with dynamic vectors
 		int i = 0;
 		for (int j = 0; j < c; j++)
 		{
